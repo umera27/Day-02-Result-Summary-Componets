@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face  {
+    font-family: 'HankenGrotesk-Bold';
+    src: url('./asset/font');
+}
+html{
+    font-family:"Arial",sans-serif;
+    background-color: white;
+}
+
+.card-body{
+   
+    display: flex;    
+    position: relative;
+    top: 200px;
+    left: 50px;
+    width: 80%;
+    max-width: 950px;
+    height:550px;
+    margin: 2em auto;
+    padding: 1em;
+    border-radius: 15px;
+    
+    @media(max-width: 780px){
+        flex-direction: column;
+        position: relative;
+        top: -20px;
+        left: -20px;
+        margin: 0 auto;
+        width: 100%;
+    }
+ 
+}
+.card{
+   
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    color: white;
+    border-radius: 25px;
+    
+    
+        @media(max-width: 780px){
+        display: block;
+        
+        width: 57vh;
+        border-radius: 0px 0px 35px 35px;
+    }
+    
+    
+}
+.card-info{
+  
+    height: 500px;
+    width: 100%;
+    background-color:  hsl(0, 0%, 100%);
+    border-radius: 0px 40px 40px 0px;
+    border: 1px solid white;
+    margin: 1.5em;    
+    box-shadow: 88px 65px 85px 50px whitesmoke;
+    margin-top: 0;
+    
+    @media(max-width: 780px){
+      
+      width: 50vh;
+      margin: 1em 0;
+      border-radius: 0;
+      box-shadow: none;
+    }
+    
+}
+.card-info ul{
+    padding: 1em;
+   
+    list-style: none;
+}
+.card-info ul li{
+    
+    padding: 1em ;
+    margin: 1em;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.btn{
+    padding: 1em 5em;
+   
+    margin:1em auto;
+    display: block;
+    border-radius:100px;
+    border: 1px solid white;
+    background-color:hsl(0, 0%, 25%);
+    color: white;
+}
+.list-group li:nth-child(1){
+    color:hsl(0, 100%, 67%) ;
+    border: 1px solid whitesmoke;
+    background-color: hsl(0, 100%, 97%);
+}
+.list-group li:nth-child(2){
+    color:hsl(39, 100%, 56%);
+    border: 1px solid whitesmoke;
+    background-color: hsl(39, 100%, 96%);
+}
+.list-group li:nth-child(3){
+    color:hsl(166, 100%, 37%) ;
+    border: 1px solid whitesmoke;
+    background-color: hsl(166, 100%, 97%);
+}
+.list-group li:nth-child(4){
+    color:hsl(234, 85%, 45%) ;
+    background-color: hsl(241, 100%, 97%);
+    border: 1px solid white;
+}
+.circle{
+   
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;    
+    justify-content: center; 
+    align-items: center;    
+    border-radius:200px;
+    margin-bottom: 4em;
+    margin-top: 4em;
+    background:linear-gradient(hsl(241, 81%, 54%),hsl(252, 100%, 63%));
+    @media(max-width: 780px){
+        width: 150px;
+        height: 150px;
+        margin-left: auto;
+    }
+}
+
+.list-group .sright{
+    float: right;
+   
+}
+.list-group .sleft{
+    float: left;
+    margin-right: 1em;
+}
+
+.card p{
+  
+   position: relative;
+   top: -40px;
+   padding: 20px;
+   font-size: 18px; 
+   font-weight: bolder;
+   color: #bdc7e3ba;
+   
+}
+.card h2{
+    margin-bottom: 1em;
+    margin-top: -1em;
+    font-size: 35px;
+}
+h1{ 
+    @media(max-width: 780px){
+        position: relative;
+        top: 50px;
+        font-size: 20px;
+        color: #bdc7e3ba;
+    }
+}
+.btn:hover{
+    background-color: hsl(252, 100%, 63%);
+    color: white;
+}
+.btn:active{
+    background-color: hsl(252, 100%, 73%);
+    color: white;
+}
+h3{
+    padding: 1em;
+}
