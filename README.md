@@ -1,9 +1,9 @@
-#Frontend Mentor - Day-02-Result Summary Components solution
+###Frontend Mentor - Day-02-Result Summary Components solution
 
 
 This is a solution to the Result Summary Components challenge on Frontend Mentor.
 
-The challenge
+###The challenge
 
 
 Users should be able to:
@@ -12,13 +12,13 @@ See hover and focus states for all interactive elements on the page
 
 Design Responsive Website(width:370px,width:1440px)
  
-Link
+###Link
 
 
 Solution URL:https://github.com/umera27/Day-02-Result-Summary-Components.git
 Live URL :https://umera27.github.io/Day-02-Result-Summary-Components
 
-My process
+###My process
 
 Process:
 
@@ -36,7 +36,7 @@ CSS custom properties
 
 Mobile-first workflow
 
-Technology used
+###Technology used
 
 -Html
 
